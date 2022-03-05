@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taconauta</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Estilo de header */
+        h2, h1 {
+            /*background-color: #666;*/
+            padding: 30px;
+            text-align: center;
+            color: rgb(138, 18, 194);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="../assets/logo.png" alt="logo tacosmos" width="100px">
+            <h1>Space Cake</h1>
+            <h2>Realizar Pedido</h2>
+        </div>
+    </header>
+
+    <h2>Datos de contacto:</h2>
+    <label for="nombreUsr">Nombre completo:</label><br>
+    <input id="nombreUsr" name="nombreUsr"><br><br>
+
+    <label for="tel1">Teléfono:</label><br>
+    <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+    <label for="correo1">Correo electrónico:</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    
+    <h3>Sabores que quiero: (seleccione los sabores deseados)</h3><br>
+        <input type="checkbox" id="sabores1" name="sabores1" value="Chocolate">
+        <label for="sabores1">Chocolate</label><br>
+        <input type="checkbox" id="sabores2" name="sabores2" value="Nutella">
+        <label for="sabores2">Nutella</label><br>
+        <input type="checkbox" id="sabores3" name="sabores3" value="Helado">
+        <label for="sabores3">Helado</label><br>
+        <input type="checkbox" id="sabores4" name="sabores4" value="Fresas">
+        <label for="sabores4">Fresas</label><br>
+        <input type="checkbox" id="sabores5" name="sabores5" value="Tres Leches">
+        <label for="sabores5">Tres Leches</label><br>
+    <br>
+
+    <h3>Adornos que quiero: (seleccione los adornos deseados)</h3><br>
+        <input type="checkbox" id="adornos1" name="adornos1" value="Chocolate">
+        <label for="adornos1">Vela con chispas</label><br>
+        <input type="checkbox" id="adornos2" name="adornos2" value="Nutella">
+        <label for="adornos2">Vela con luces</label><br>
+        <input type="checkbox" id="adornos3" name="adornos3" value="Helado">
+        <label for="adornos3">Moño</label><br>
+        <input type="checkbox" id="adornos4" name="adornos4" value="Fresas">
+        <label for="adornos4">Muñeco de caricatura</label><br>
+    <br>
+
+    <label for="descGral">Extras:</label><br>
+    <input id="descGral" name="descGral"><br><br>
+    <a href='https://pedidoenlinea.raloy.com.mx/docs/assets/img/pedido_cart_sent_confirm.ad280bbd.png' type="button">Enviar</a><br><br>
+    <a href='./spacecake.html' >Regresar al menu</a>
+</body>
+
+</html>
